@@ -1,14 +1,33 @@
+
 tabla = int(input("Ingrese la tabla de multiplicar que desea: "))
 for x in range (1,11):
     print (f"{tabla}x {x} = {x*tabla}")
-    #estoy haciendo un cambio
-    #este es otro cambio (agregando un comentario)
-    #este es el cambio de igris
 
-#cambio de deivi otra vez
+print ("esta es tu tabla de multiplicar")
+
+print("====================================")
+
+print ("vamos a imprimir todas las tablas del 1 al 10")
 
 
-#cambio de igris para hacer otra prueba
+for t in range (1,11):
+    for x in range (1,11):
+        print(f"{t} x {x} = {x*t}")
+    print (f"tabla del {t}")
     
-#cambio de igris 2
+print("========================================================")
 
+print ("ahora vamos a intentar a usar el siclo while")
+
+
+tablaMultiplicar=1
+valorMultiplicar=1
+while tablaMultiplicar <=10:
+    while valorMultiplicar <=10:
+        print(f"{tablaMultiplicar} x {valorMultiplicar} = {tablaMultiplicar*valorMultiplicar}")
+        valorMultiplicar +=1
+
+    print (f" tabla de multiplicar {tablaMultiplicar}")
+    tablaMultiplicar +=1
+    valorMultiplicar=1
+    
